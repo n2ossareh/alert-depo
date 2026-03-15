@@ -6,7 +6,7 @@ interface Props {
 
 const Alert = ({children} : Props) => {
     return (
-        <div className="alert alert-primary">
+        <div className="alert alert-danger alert-dismissible">
             {children}
         </div>
     );

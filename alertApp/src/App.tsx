@@ -1,5 +1,6 @@
 
-import Alert from './components/Alert'
+import Alert from './components/Alert';
+import MyButton from './components/MyButton';
 
 function App() {
     return (
@@ -7,6 +8,10 @@ function App() {
         <Alert>
           This <b>Succeeded</b>!
         </Alert>
+      
+        <div>
+          <MyButton onClick={() => console.log("clicked")}>My Button</MyButton>
+        </div>
       </div>
     )
 }
